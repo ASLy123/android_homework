@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffd9"
+    tools:context="com.example.hjschoolhelper_200301851.">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="731dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bjt2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="244dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="新生报道流程"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="38dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="164dp"
+        android:background="#e9fd29"
+        android:text="报道"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="37dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:background="#a4ef32"
+        android:text="缴费"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="42dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="292dp"
+        android:background="#a4ef32"
+        android:text="办理住宿"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="22dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:background="#b4eb45"
+        android:text="发放物资"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="33dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="424dp"
+        android:background="#adf651"
+        android:text="开学事项"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="31dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="#adf651"
+        android:text="军训"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

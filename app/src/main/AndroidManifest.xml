@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hjschoolhelper_200301851">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HJSchoolHelper_200301851">
+        <activity android:name="com.example.hjschoolhelper_200301851.JianyiActivity"></activity>
+        <activity android:name="com.example.hjschoolhelper_200301851.HanghaiActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.WuguanActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.QihangActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.GongguiActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.XueyuanJieshaoActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.YuanxiMainActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.ShetuanHuodongActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.DelicacyActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.ShetuanJingcaiMainActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.ShetuanJieshaoActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.ShetuanMainActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.ShetuanActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.SheshiActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.SwbanliActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.LiuchengActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.XszhinanActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.RegisterActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.LoginActivity" />
+        <activity android:name="com.example.hjschoolhelper_200301851.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

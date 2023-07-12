@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="133dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="40dp"
+        android:text="注册"
+        android:textSize="65sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_use"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="请输入账号"
+        android:inputType=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_pwd"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/grade"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="288dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/ra_1"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="大一" />
+
+        <RadioButton
+            android:id="@+id/ra_2"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="大二" />
+
+        <RadioButton
+            android:id="@+id/ra_3"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="大三" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="158dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="228dp"
+        android:entries="@array/spinner_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="58dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="228dp"
+        android:text="校区"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_register"
+        android:layout_width="291dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/regis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

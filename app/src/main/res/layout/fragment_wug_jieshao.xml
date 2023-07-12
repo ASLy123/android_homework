@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="769dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="257dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="56dp"
+                android:text="物流与管理学院介绍"
+                android:textSize="28sp"
+                android:layout_marginLeft="56dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="407dp"
+                android:layout_height="wrap_content"
+                android:text="   物流与交通管理学院始终坚持“党建引领、文化引路，产教融合、质量强院，人人进步、人人出彩”发展理念，秉承“依托行业办专业、办好专业促产业”的原则开设了现代物流管理、邮政快递运营管理、智能物流技术、采购与供应管理、空中乘务、酒店管理与数字化运营、大数据与会计等7个专业，拥有一支德才兼备、结构合理、勇于创新的双师型教师队伍，建有集教学、科研、培训、社会服务等功能于一体的人才培养和创新服务基地，获聘武汉物流协会副会长、湖北物流教育专业委员会副主任委员、武汉市供销合作职业教育教学指导委员会副主任委员，培养了全国交通类职业院校“劳模工匠”、武汉市首批“资智回汉校友”梅海涛，全国交通运输系统“抗疫先进个人”张士虎等优秀毕业生代表，学生就业率保持在98%以上，企业满意度保持在95%以上，赢得了社会的广泛赞誉。"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

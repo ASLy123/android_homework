@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="257dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="56dp"
+                android:text="航海学院介绍"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:text="   航海学院是国家及交通运输部重点支持和大力发展的特色学院，是国家首批定向培养士官工作单位，是湖北省政府指定的海员教育与培训基地。现开设有航海技术、轮机工程技术、电气自动化技术、船舶电子电气技术、港口与航运管理5个专业，其中航海技术专业是交通运输部主干专业和湖北省高等职业教育重点专业，轮机工程技术专业是国家骨干专业、国家生产性实训基地、教育部及财政部重点支持专业和湖北省高等职业教育品牌专业。"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

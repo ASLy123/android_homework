@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.com.example.hjschoolhelper_180501532.GoguiJieshaoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="257dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="56dp"
+                android:text="公路与轨道学院介绍"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:text="   学院是全国高等职业学校道路养护与管理专业教学标准牵头制定单位，全国公路运输行业养护职业技能大赛湖北省赛区承办单位；是全国交通行指委路桥专指委理事单位、湖北公路学会理事单位、湖北造价研究会理事单位；是湖北省路桥、港航技术人员职称标准、水平能力测试大纲制订单位。道路与桥梁工程技术专业群入选湖北省“双高计划”高水平专业群，现开办有道路桥梁工程技术、工程造价、土木工程检测、城市轨道交通工程技术、高速铁路施工与维护、道路养护与管理等6个专业。拥有国家示范专业点1个（道路桥梁工程技术）、国家骨干专业2个（道路桥梁工程技术、城市轨道交通工程技术）、湖北省高等职业教育品牌专业1个（道路桥梁工程技术）、湖北省品牌建设专业1个（工程造价）、湖北省特色专业1个（城市轨道交通工程技术）、中央财政支持提升专业服务能力项目专业1个（道路养护与管理）。"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

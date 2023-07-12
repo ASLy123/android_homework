@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="257dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="56dp"
+                android:text="建筑与艺术学院介绍"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:text="   建筑与艺术设计学院成立于2002年，学院围绕立足服务建筑行业的办学定位，落实“一院一群”办学思想。打造特色鲜明的“建筑”专业群，开设建筑工程技术、工程造价（房屋建筑方向）、建设工程监理、建筑装饰工程技术、艺术设计（虚拟现实应用技术方向）、艺术设计（交通景观设计方向）。学院深化产教融合以“政府行业学校企业社会”“五重螺旋”产教融合思想，推进“主体联合、文化契合、队伍结合、知识聚合、流程整合”的“五维一体”校企合作路径，制定行业标准，树立专业群品牌。与世界500强中交第二航务工程局有限公司签订战略合作协议，开设“二航班”；与中国企业500强宝业湖北建工集团签订战略合作协议，开设“宝业订单班”；与全国家居龙头企业红星美凯龙签订战略合作协议，开设“红星美凯龙订单班”；与深圳中装建设集团股份有限公司签订战略合作协议，开设“中装建设订单班”；与央企上市企业万华集团签订战略合作协议，开设“万华集团精英人才订单班”，同时开设有“中甄住工”“中信仁和建工”“中信正业”“木德木作储备店总”“拜斯达”“一家一装饰”“九创装饰” “嘉一高科”“华南建工”等人才订单班。"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

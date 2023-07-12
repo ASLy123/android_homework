@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="55dp">
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="257dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="56dp"
+                android:text="汽车与航空学院介绍"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:text="   汽车与航空学院是省内汽车类专业建设的领头雁，是省内航空类专业建设的先行军，定位于培养交通车辆、智能制造和航空技术领域的高素质技术技能人才。学院是“全国汽车行业骨干职业院校”，国家首批1+X证书制度试点院校，全国交通运输职业教育汽车技术类专业教学指导委员会副主任单位，全国航空工业职业教育无人机专业教学指导委员会副主任单位，全国机械行业商用车产教联盟副理事长单位，全国汽车服务职教集团副理事长单位，全国智慧交通与智能网联汽车产教联盟理事单位，全国高等职业学校汽车车身维修技术专业教学标准牵头制定单位，全国机动车检测维修专业技术人员职业水平评价考点，湖北省定向培养士官院校单位，湖北省汽车维修类技能高考组考单位，湖北省职业院校技能大赛承办单位，湖北省职业院校汽车运用与维修技术专业中高职衔接教学标准制定牵头单位，湖北无人机产教联盟理事长单位。"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

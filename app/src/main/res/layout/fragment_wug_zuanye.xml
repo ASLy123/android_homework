@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxzy"
+        android:layout_width="match_parent"
+        android:layout_height="769dp">
+
+        <TextView
+            android:id="@+id/txt_1"
+            android:layout_width="262dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="52dp"
+            android:text="物流与管理专业介绍"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ed_jy"
+            android:layout_width="407dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="68dp"
+            android:enabled="false"
+            android:text="物流类专业"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_1" />
+
+        <EditText
+            android:id="@+id/ed_jw"
+            android:layout_width="407dp"
+            android:layout_height="61dp"
+            android:enabled="false"
+            android:text="航空运输类专业"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_jy" />
+
+        <EditText
+            android:id="@+id/ed_ds"
+            android:layout_width="407dp"
+            android:layout_height="56dp"
+            android:enabled="false"
+            android:text="大数据与会计专业"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_jw" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

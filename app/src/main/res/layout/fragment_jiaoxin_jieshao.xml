@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE2EA"
+    tools:context="com.example.hjschoolhelper_200301851.">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/txt_jxjs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-55dp">
+
+            <LinearLayout
+                android:layout_width="406dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="257dp"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="56dp"
+                    android:text="交通信息学院介绍"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="406dp"
+                    android:layout_height="wrap_content"
+                    android:text="   交通信息学院始终坚持“立足交通、面向市场、创新驱动、特色发展”的办学理念，以“打造成交通信息行业用人单位的首选职业院校”为目标，强化交通特色，做强优势专业，形成“智能交通和数字网络”两大专业群，突出交通运输、服务控制和车辆制造等相关技术的数字化、网络化和智能化应用专业布局。开设有计算机应用技术、计算机网络技术、电子商务、智能交通技术运用、移动通信技术、城市轨道交通通信信号技术、城市轨道交通机电技术等7个专业。其中，拥有国家骨干专业2个,交通运输部示范专业1个，全国交通行指委骨干专业1个，湖北省省级重点(骨干)专业2个，省级特色专业1个，品牌专业1个。学院现有在校生规模达2800余人,与交通运输行业企业稳定长期合作，近三年毕业生就业率均在98.5%以上，实现大城市就业，高薪就业。"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

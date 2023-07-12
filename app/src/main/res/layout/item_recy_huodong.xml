@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D7FBD8">
+
+
+    <ImageView
+        android:id="@+id/img_recy_huodong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_item_recy_name"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:text="名称"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/img_recy_huodong"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_item_recy_desc"
+        android:layout_width="413dp"
+        android:layout_height="127dp"
+        android:text="介绍"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_recy_huodong" />
+
+    <com.example.hjschoolhelper_200301851.JingcaiGridView
+        android:id="@+id/grid_item_recy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_item_recy_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>
